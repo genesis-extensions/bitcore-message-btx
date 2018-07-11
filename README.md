@@ -3,23 +3,23 @@
 
 [![NPM Package](https://img.shields.io/npm/v/bitcore-message.svg?style=flat-square)](https://www.npmjs.org/package/bitcore-message)
 
-bitcore-message-hush adds support for verifying and signing hush messages in [Node.js](http://nodejs.org/) and web browsers.
+bitcore-message-btx adds support for verifying and signing btx messages in [Node.js](http://nodejs.org/) and web browsers.
 
 See [the main bitcore repo](https://github.com/bitpay/bitcore) for more information.
 
 ## Getting Started
 
 ```sh
-git clone https://github.com/TheTrunk/bitcore-message-zelcash.git
-cd bitcore-message-zelcash
+git clone https://github.com/BTXinsight/bitcore-message-btx.git
+cd bitcore-message-btx
 npm install --save
 ```
 
 To sign a message:
 
 ```javascript
-var bitcore = require('bitcore-lib-zelcash');
-var Message = require('bitcore-message-zelcash');
+var bitcore = require('bitcore-lib-btx');
+var Message = require('bitcore-message-btx');
 
 var privateKey = bitcore.PrivateKey.fromWIF('cPBn5A4ikZvBTQ8D7NnvHZYCAxzDZ5Z2TSGW2LkyPiLxqYaJPBW4');
 var signature = Message('hello, world').sign(privateKey);
