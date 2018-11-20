@@ -1,7 +1,7 @@
 {
-  "name": "bitcore-message-btx",
+  "name": "bitcore-message-genesis",
   "version": "1.0.2",
-  "description": "BitCore Messages for Bitcore",
+  "description": "Genesis Messages for Bitcore",
   "main": "index.js",
   "scripts": {
     "lint": "gulp lint",
@@ -10,7 +10,7 @@
     "build": "gulp"
   },
   "keywords": [
-    "btx",
+    "genx",
     "bitcore",
     "btc",
     "satoshi",
@@ -19,13 +19,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/BTXinsight/bitcore-message-btx.git"
+    "url": "https://github.com/genesis-extended/bitcore-message-genesis.git"
   },
   "dependencies": {
-    "bitcore-lib-btx": "git://github.com/BTXinsight/bitcore-lib-btx#master"
+    "bitcore-lib-genesis": "git://github.com/genesis-extended/bitcore-lib-genesis#master"
   },
   "devDependencies": {
-    "bitcore-build-btx": "git://github.com/BTXinsight/bitcore-build-btx#master",
+    "bitcore-build-genesis": "git://github.com/genesis-extended/bitcore-build-genesis#master",
     "brfs": "^1.3.0",
     "chai": "~1.10.0",
     "gulp": "^3.8.10"
